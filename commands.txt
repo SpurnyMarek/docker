@@ -1,0 +1,20 @@
+Vytvorenie image
+docker build -t asp_net_core_app_image .
+
+Spustenie kontajneru
+   Cez prikaz docker run
+
+      docker run -d -p 8080:80 --name asp_net_core_app asp_net_core_app_image
+
+   Cez docker-compose
+
+      docker-compose up -d
+
+
+
+
+docker ps -a
+docker logs [id]
+docker image ls
+docker rmi [id]
+docker --version
