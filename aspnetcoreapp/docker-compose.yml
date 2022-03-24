@@ -1,7 +1,7 @@
 version: '3.4'
 
 services:
-  frontendtest:
+  asp_net_core_app:
     image: asp_net_core_app
     build:
       context: .
